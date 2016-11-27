@@ -1,5 +1,7 @@
 # Faker::Nigehaji
 
+[![CircleCI](https://circleci.com/gh/netzes/faker-nigehaji.svg?style=svg)](https://circleci.com/gh/netzes/faker-nigehaji)
+
 This gem is faker for Nigeru wa Haji da ga Yaku ni Tatsu.
 
 ## Usage
