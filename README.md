@@ -11,6 +11,12 @@ require 'faker/nigehaji'
 
 Faker::Nigehaji.name
 # => "森山 みくり"
+
+Faker::Nigehaji.last_name
+# => "風見"
+
+Faker::Nigehaji.first_name
+# => "ナツキ"
 ```
 
 ## License
