@@ -7,6 +7,14 @@ describe Faker::Nigehaji do
     end
   end
 
+  describe '#last_name' do
+    subject { Faker::Nigehaji.last_name }
+
+    it do
+      is_expected.to be_an_element_of(Faker::Nigehaji::NAME.map { |hash| hash.fetch(:last_name) })
+    end
+  end
+
   describe '#name' do
     subject { Faker::Nigehaji.name }
 

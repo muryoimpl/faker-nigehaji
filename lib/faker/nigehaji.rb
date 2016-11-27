@@ -20,6 +20,10 @@ module Faker
       NAME.sample.fetch(:first_name)
     end
 
+    def self.last_name
+      NAME.sample.fetch(:last_name)
+    end
+
     def self.name
       NAME.sample.values.join(' ')
     end
