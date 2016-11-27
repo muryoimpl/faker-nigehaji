@@ -16,6 +16,10 @@ module Faker
       { first_name: '柚', last_name: '堀内' }
     ].map(&:freeze).freeze
 
+    def self.first_name
+      NAME.sample.fetch(:first_name)
+    end
+
     def self.name
       NAME.sample.values.join(' ')
     end
