@@ -21,5 +21,9 @@ describe Faker::Nigehaji do
     it do
       is_expected.to be_an_element_of(Faker::Nigehaji::NAME.map { |hash| hash.values.join(' ') })
     end
+
+    it do
+      expect(subject.split(' ').first).to be_an_element_of(Faker::Nigehaji::NAME.map { |hash| hash.fetch(:last_name) })
+    end
   end
 end
